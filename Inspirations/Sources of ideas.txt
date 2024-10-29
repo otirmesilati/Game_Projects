@@ -1,0 +1,8 @@
+simple games in cpp playlist:
+
+https://www.youtube.com/watch?v=7Vf_vQIUk5Q&list=PLB_ibvUSN7mzUffhiay5g5GUHyJRO4DYr&index=2
+
+
+code monkeys unity:
+- 
+- Duck game: 
