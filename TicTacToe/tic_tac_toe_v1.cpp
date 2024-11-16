@@ -18,7 +18,7 @@ void show_board(char game_board[BOARD_LENGTH][BOARD_WIDTH])
     }
 }
 
-bool win_condition_check(char game_board[BOARD_LENGTH][BOARD_WIDTH])
+bool win_condition_check(char game_board[BOARD_LENGTH][BOARD_WIDTH]) // add the != ' ' to each check section
 {
     // a for loop for checking the lines
     for(int linex_index = 0; linex_index < BOARD_LENGTH; ++linex_index)
@@ -30,27 +30,35 @@ bool win_condition_check(char game_board[BOARD_LENGTH][BOARD_WIDTH])
     // a for loop for checking the rows
     for(int row_index = 0; row_index < BOARD_WIDTH; ++row_index) 
     {
-        if(game_board[0][row_index] == game_board[1][row_index] == game_board[2][row_index]) // finish this
+        if(game_board[0][row_index] == game_board[1][row_index] == game_board[2][row_index]) 
         return true;
     }
 
     // a for loop for checking the diagonals
-    for(int diagonal_index = 0; diagonal_index < BOARD_LENGTH; ++diagonal_index)
+    if((game_board[0][0] == game_board[1][1] == game_board[2][2]) || (game_board[0][2] == game_board[1][1] == game_board[2][0]))
     {
-        
+        return true;
     } 
 
     return false; 
 }
 
-// 2. a function for setting the board
+void board_moving(char game_board[BOARD_LENGTH][BOARD_WIDTH], int row_to_input, int column_to_input, char player_to_move)
+{
+    // check where to move to
+}
 
-// 3. a function for checking if the winner won
+void play_game()
+{
+    char game_board[BOARD_LENGTH][BOARD_WIDTH] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+    char current_player = 'X';
 
-// 4. a function for playing the game
+    
+    // what here ?
+}
 
 int main()
 {
-    // call game function
+    play_game();// call game function
     return NULL;
 }
