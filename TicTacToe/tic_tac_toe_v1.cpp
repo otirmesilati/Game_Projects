@@ -5,8 +5,6 @@
 
 using namespace std;
 
-// TODO: 1's done, remaining are 2, 3 and 4
-
 
 void show_board(char game_board[BOARD_LENGTH][BOARD_WIDTH])
 {
@@ -53,6 +51,12 @@ void play_game()
     char game_board[BOARD_LENGTH][BOARD_WIDTH] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     char current_player = 'X';
 
+    for(int game_move_count = 1; game_move_count <= 9; ++game_move_count) 
+    {
+        // show the board before the move is made 
+
+        // what here ?
+    }
     
     // what here ?
 }
