@@ -53,12 +53,21 @@ void play_game()
 
     for(int game_move_count = 1; game_move_count <= 9; ++game_move_count) 
     {
-        // show the board before the move is made 
+        show_board(game_board);
+        int current_player_row_pick, current_player_col_pick;
+        bool move_flag = true;
+        while(move_flag){} // move the conditions here 
+        cout << "make your move" << endl;
+        cin >> current_player_row_pick >> current_player_col_pick;
+        
+        win_condition_check(game_board);
+                // check the input - do again if the input wasn't valid
+
+        // valid - increase move count, check for win condition
 
         // what here ?
     }
     
-    // what here ?
 }
 
 int main()
