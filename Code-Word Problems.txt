@@ -2,17 +2,22 @@ Code-Word Problems.txt
 
 < < < < < < < < Procedure Puzzles > > > > > > > > >
 
-& & & & & & Mathenatical Puzzles & & & & & &
+& & & & & & Mathematical Puzzles & & & & & &
+
+1. Even Numbers are awesome! almost as awesome as Odd Numbers!
+Be a dear and check if the number I'm thinking of is even, ok?
+
+& & & & & & Grades & & & & & & 
+1. Abby Got her first grade for this semester, though after looking at the solution, she thought she found a mistake in the teacher's grading, so she asked for a review, and the teacher has found her reasoning to be true.
+Can you fix her Grading?
+
+
 
 & & & & & & CadBoard Puzzles & & & & & &
 
-& & & & & & C Lectures & & & & & &  
 
-   ^ ^ ^ ^ ^ Lecture 3 ^ ^ ^ ^ ^ 
-   
-Lecture Problem Ideas:
-1. IN: Test grade
-OUT: print test grade + 5 points
+
+& & & & & & C Lectures & & & & & &  
 
 2. IN: int number
 OUT: print boolean answer - is the number even?
