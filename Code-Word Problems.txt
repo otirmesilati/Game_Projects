@@ -8,10 +8,9 @@ Code-Word Problems.txt
 Be a dear and check if the number I'm thinking of is even, ok?
 
 & & & & & & Grades & & & & & & 
+
 1. Abby Got her first grade for this semester, though after looking at the solution, she thought she found a mistake in the teacher's grading, so she asked for a review, and the teacher has found her reasoning to be true.
 Can you fix her Grading?
-
-
 
 & & & & & & CadBoard Puzzles & & & & & &
 
